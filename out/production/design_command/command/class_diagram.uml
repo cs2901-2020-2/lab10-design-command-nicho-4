@@ -3,30 +3,64 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="-33.75595238095241" y="-179.0">command.Light</node>
-    <node x="-142.0" y="-11.0">command.RemoteControlTest</node>
-    <node x="-138.0" y="-100.0">command.LightOnCommand</node>
-    <node x="-269.50595238095235" y="-179.0">command.Command</node>
-    <node x="-338.0" y="-100.0">command.SimpleRemoteControl</node>
+    <node x="12.779761904761898" y="0.0">command.Light</node>
+    <node x="55.500000000000014" y="331.0">command.RemoteControlTest</node>
+    <node x="260.02976190476187" y="-4.5">command.Command</node>
+    <node x="264.5" y="160.0">command.SimpleRemoteControl</node>
+    <node x="47.499999999999986" y="149.0">command.LightOnCommand</node>
   </nodes>
   <notes />
   <edges>
+    <edge source="command.RemoteControlTest" target="command.Light">
+      <point x="-75.41666666666671" y="-27.0" />
+      <point x="70.5833333333333" y="311.0" />
+      <point x="26.0" y="311.0" />
+      <point x="26.0" y="124.0" />
+      <point x="28.529761904761898" y="124.0" />
+      <point x="-47.25" y="49.5" />
+    </edge>
+    <edge source="command.RemoteControlTest" target="command.LightOnCommand">
+      <point x="-15.083333333333371" y="-27.0" />
+      <point x="130.91666666666663" y="291.0" />
+      <point x="96.74999999999999" y="291.0" />
+      <point x="-49.25" y="61.0" />
+    </edge>
+    <edge source="command.LightOnCommand" target="command.Light">
+      <point x="-65.66666666666669" y="-61.0" />
+      <point x="80.3333333333333" y="124.0" />
+      <point x="91.5297619047619" y="124.0" />
+      <point x="15.75" y="49.5" />
+    </edge>
+    <edge source="command.RemoteControlTest" target="command.SimpleRemoteControl">
+      <point x="45.25" y="-27.0" />
+      <point x="191.25" y="301.0" />
+      <point x="313.75" y="301.0" />
+      <point x="-49.25" y="50.0" />
+    </edge>
     <edge source="command.LightOnCommand" target="command.Command">
-      <point x="-53.0" y="-14.5" />
-      <point x="-111.5" y="-120.0" />
-      <point x="-177.8392857142857" y="-120.0" />
-      <point x="36.66666666666666" y="14.5" />
+      <point x="65.66666666666669" y="-61.0" />
+      <point x="211.66666666666669" y="124.0" />
+      <point x="282.19642857142856" y="124.0" />
+      <point x="-44.33333333333334" y="38.0" />
+    </edge>
+    <edge source="command.SimpleRemoteControl" target="command.Command">
+      <point x="-49.25" y="-50.0" />
+      <point x="313.75" y="124.0" />
+      <point x="326.52976190476187" y="124.0" />
+      <point x="0.0" y="38.0" />
     </edge>
   </edges>
   <settings layout="Hierarchic Group" zoom="1.0" x="229.0" y="214.0" />
   <SelectedNodes>
-    <node>command.Light</node>
-    <node>command.RemoteControlTest</node>
-    <node>command.LightOnCommand</node>
     <node>command.Command</node>
-    <node>command.SimpleRemoteControl</node>
   </SelectedNodes>
-  <Categories />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>
 </Diagram>

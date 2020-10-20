@@ -1,6 +1,6 @@
 package command;
 
-public class RemoteControlTest {
+public class RemoteLoader {
     public static void main(String[] args) {
         SimpleRemoteControl remote = new SimpleRemoteControl();
         Light light = new Light();
